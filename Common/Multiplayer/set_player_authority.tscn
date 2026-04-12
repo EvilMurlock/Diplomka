@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c2uhbsyge1j0t"]
+
+[ext_resource type="Script" uid="uid://bkiqlsmk52owx" path="res://Common/Multiplayer/SetPlayerAuthority.gd" id="1_v0gem"]
+
+[node name="SetPlayerAuthority" type="Node" unique_id=1351116388]
+script = ExtResource("1_v0gem")

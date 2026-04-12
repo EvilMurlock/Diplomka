@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://e6tcpmy6ncj5"]
+
+[ext_resource type="Script" uid="uid://cf6lercx5cy71" path="res://Common/Camera/claimPlayerCamera.gd" id="1_qg08v"]
+
+[node name="DisableIfNotAuthority" type="Node" unique_id=969690699]
+script = ExtResource("1_qg08v")

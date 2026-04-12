@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dy14dfay1h2go"]
+
+[ext_resource type="Script" uid="uid://qggckx38hsle" path="res://Common/Multiplayer/SetServerAuthority.gd" id="1_csknf"]
+
+[node name="SetServerAuthority" type="Node" unique_id=1264461215]
+script = ExtResource("1_csknf")

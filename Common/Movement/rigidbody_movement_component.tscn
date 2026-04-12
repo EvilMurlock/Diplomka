@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://brbsqp21e3i1s"]
+
+[ext_resource type="Script" uid="uid://ditpoatbi4yhn" path="res://Common/Movement/rigidbodyMovementComponent.gd" id="1_7ephc"]
+
+[node name="RigidbodyMovementComponent" type="Node2D" unique_id=1341422130]
+script = ExtResource("1_7ephc")

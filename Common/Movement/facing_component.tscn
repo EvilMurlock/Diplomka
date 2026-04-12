@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dxctw427evfh5"]
+
+[ext_resource type="Script" uid="uid://m0vprbc5yn21" path="res://Common/Movement/facing_component.gd" id="1_lrq64"]
+
+[node name="FacingComponent" type="Node"]
+script = ExtResource("1_lrq64")

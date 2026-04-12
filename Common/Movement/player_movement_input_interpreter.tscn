@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://04i4saq486iq"]
+
+[ext_resource type="Script" uid="uid://dcd1xnbgcvoat" path="res://Common/Movement/player_movement_input_interpreter.gd" id="1_x5c5d"]
+
+[node name="PlayerMovementInputInterpreter" type="Node" unique_id=2092180583]
+script = ExtResource("1_x5c5d")
