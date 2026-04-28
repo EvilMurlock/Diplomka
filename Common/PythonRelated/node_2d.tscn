@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://bck8kwm41lils"]
+
+[ext_resource type="Script" path="res://Common/PythonRelated/RL_QNetwork_Test.py" id="1_jm70y"]
+[ext_resource type="Script" path="res://Common/PythonRelated/PyTest.py" id="3_tawpc"]
+
+[node name="Node2D" type="Node2D" unique_id=489666306]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1279650024]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+use_parent_material = false
+position = Vector2(0, 0)
+rotation = 0.0
+scale = Vector2(1, 1)
+skew = 0.0
+script = ExtResource("1_jm70y")
+
+[node name="PyTest" type="Node2D" parent="." unique_id=1905749437]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+visible = true
+modulate = Color(1, 1, 1, 1)
+self_modulate = Color(1, 1, 1, 1)
+show_behind_parent = false
+top_level = false
+clip_children = 0
+light_mask = 1
+visibility_layer = 1
+z_index = 0
+z_as_relative = true
+y_sort_enabled = false
+texture_filter = 0
+texture_repeat = 0
+use_parent_material = false
+position = Vector2(0, 0)
+rotation = 0.0
+scale = Vector2(1, 1)
+skew = 0.0
+script = ExtResource("3_tawpc")
+test_int = 5
+test_float = 5.2
+test_bool = true
+test_vector = Vector3(1, 2, 3)
+
+[node name="Button" type="Button" parent="." unique_id=601352127]
+offset_left = 454.0
+offset_top = 66.0
+offset_right = 580.0
+offset_bottom = 97.0
+scale = Vector2(2.1150968, 2.1987727)
+text = "Test Algorythm"
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Button" to="Node2D" method="_start_rl_algorithm"]

@@ -1,0 +1,5 @@
+# Install required libraries
+
+./python -m pip install -r "C:\Users\koprd\Desktop\Game Development\Godot&Unity Projects\diplomka\Python\requirements.txt"
+
+Venv\Scripts\activate.bat

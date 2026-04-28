@@ -11,12 +11,13 @@ config_version=5
 [application]
 
 config/name="Diplomka"
+run/main_scene="uid://bck8kwm41lils"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/project-time-tracker/plugin.cfg")
+enabled=PackedStringArray("res://addons/project-time-tracker/plugin.cfg", "res://addons/py4godot/plugin.cfg")
 
 [physics]
 
